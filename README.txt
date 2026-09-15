@@ -27,4 +27,4 @@ ARCHIVOS PRINCIPALES:
 - Carpeta recursos
 
 ENLACE DEL PROYECTO EN GITHUB:
-[PEGAR AQUÍ EL ENLACE DEL REPOSITORIO]
+https://github.com/cgiovanny30/Tarea_HTML5_Christopher
