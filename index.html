@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Puerto Rico - Isla del Encanto</title>
+
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+
+		<!-- HEADER: representa el encabezado principal de la página -->
+		<header>
+			<h1>Puerto Rico: Isla del Encanto</h1>
+			<p>Conoce un poco sobre nuestra cultura, lugares y tradiciones.</p>
+		</header>
+
+		<!-- NAV: contiene los enlaces principales de navegación -->
+		<nav>
+			<a href="#inicio">Inicio</a>
+			<a href="#lugares">Lugares</a>
+			<a href="#cultura">Cultura</a>
+			<a href="#gastronomia">Gastronomía</a>
+		</nav>
+
+		<!-- MAIN: contiene el contenido principal de la página -->
+		<main>
+
+			<!-- SECTION: agrupa contenido relacionado -->
+			<section id="inicio">
+				<h2>Bienvenidos a Puerto Rico</h2>
+
+				<!-- ARTICLE: representa contenido independiente -->
+				<article>
+					<h3>La Isla del Encanto</h3>
+
+					<p>
+						Puerto Rico es una isla del Caribe conocida por sus playas,
+						su cultura, su música y su gastronomía.
+					</p>
+
+					<!-- FIGURE: agrupa una imagen con su descripción -->
+					<figure>
+						<img src="imagenes/puerto-rico.jpg"
+							 alt="Paisaje de Puerto Rico"
+							 width="500" />
+
+						<!-- FIGCAPTION: describe el contenido de figure -->
+						<figcaption>
+							Puerto Rico cuenta con hermosos paisajes y playas.
+						</figcaption>
+					</figure>
+				</article>
+			</section>
+
+			<section id="lugares">
+				<h2>Lugares para visitar</h2>
+
+				<ul>
+					<li>El Yunque</li>
+					<li>Viejo San Juan</li>
+					<li>Culebra</li>
+					<li>Ponce</li>
+				</ul>
+			</section>
+
+			<section id="cultura">
+				<h2>Cultura puertorriqueña</h2>
+
+				<article>
+					<h3>Música y tradiciones</h3>
+					<p>
+						La cultura puertorriqueña combina diferentes tradiciones
+						que se reflejan en la música, las fiestas y las costumbres.
+					</p>
+				</article>
+			</section>
+
+			<section id="gastronomia">
+				<h2>Gastronomía</h2>
+
+				<p>
+					Algunos platos populares de Puerto Rico incluyen mofongo,
+					arroz con gandules y pasteles.
+				</p>
+			</section>
+
+			<!-- ASIDE: presenta información adicional relacionada -->
+			<aside>
+				<h3>Dato interesante</h3>
+				<p>
+					Puerto Rico también es conocido mundialmente por su música,
+					sus playas y su riqueza cultural.
+				</p>
+			</aside>
+
+			<!-- DETAILS y SUMMARY permiten mostrar información desplegable -->
+			<details>
+				<summary>Conoce más sobre Puerto Rico</summary>
+
+				<p>
+					Puerto Rico ofrece una combinación de historia, naturaleza,
+					gastronomía y entretenimiento.
+				</p>
+			</details>
+        <!-- Sección para demostrar características nuevas de HTML5 -->
+        <section id="html5">
+            <h2>Características de HTML5</h2>
+
+            <!-- VIDEO: HTML5 permite reproducir video directamente en el navegador -->
+            <article>
+                <h3>Video en HTML5</h3>
+
+                <p>
+                    HTML5 permite reproducir videos directamente desde
+                    el navegador utilizando la etiqueta video.
+                </p>
+
+                <video width="500" controls>
+                    <source src="recursos/puerto-rico.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </article>
+
+            <!-- AUDIO: permite reproducir sonido sin complementos externos -->
+            <article>
+                <h3>Audio en HTML5</h3>
+
+                <p>
+                    La etiqueta audio permite reproducir archivos de sonido
+                    directamente desde una página web.
+                </p>
+
+                <audio controls>
+                    <source src="recursos/audio.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </article>
+
+            <!-- CANVAS: proporciona un espacio para crear gráficos -->
+            <article>
+                <h3>Canvas en HTML5</h3>
+
+                <p>
+                    Canvas proporciona un espacio que puede utilizarse
+                    para crear gráficos dentro de una página web.
+                </p>
+
+                <canvas id="miCanvas" width="500" height="100">
+                    Tu navegador no soporta el elemento canvas.
+                </canvas>
+            </article>
+
+            <!-- PROGRESS: representa visualmente el progreso de una actividad -->
+            <article>
+                <h3>Barra de progreso</h3>
+
+                <p>Ejemplo de una barra de progreso utilizando HTML5:</p>
+
+                <progress value="75" max="100">75%</progress>
+            </article>
+
+        </section>
+
+        <!--
+        CARACTERÍSTICAS Y VENTAJAS DE HTML5:
+
+        1. HTML5 utiliza elementos semánticos como header, nav, main,
+           section, article y footer para organizar el contenido.
+
+        2. Las etiquetas semánticas permiten identificar con mayor
+           facilidad la función de cada parte de la página.
+
+        3. HTML5 permite integrar video directamente utilizando
+           la etiqueta video.
+
+        4. HTML5 permite integrar audio directamente utilizando
+           la etiqueta audio.
+
+        5. Figure y figcaption permiten relacionar imágenes con
+           sus respectivas descripciones.
+
+        6. Canvas proporciona un espacio para crear gráficos.
+
+        7. Progress permite representar visualmente el progreso
+           de una actividad.
+
+        8. Details y summary permiten crear contenido que el
+           usuario puede mostrar u ocultar.
+
+        9. HTML5 facilita la creación de páginas más organizadas.
+
+        10. HTML5 ofrece mejor compatibilidad con los navegadores
+            y dispositivos modernos.
+        -->
+		</main>
+
+		<!-- FOOTER: representa el pie de la página -->
+		<footer>
+			<p>Copyright 2026 Christopher Maldonado - Proyecto HTML5</p>
+
+			<p>
+				<a href="https://www.discoverpuertorico.com/" target="_blank">
+					Más información sobre Puerto Rico
+				</a>
+			</p>
+		</footer>
+
+	</body>
+
+</html>

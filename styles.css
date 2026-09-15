@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #005a9c;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #003f6b;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #005a9c;
+}
+
+h3 {
+    color: #003f6b;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* Información adicional */
+aside {
+    background-color: #e8f4fc;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #005a9c;
+}
+
+/* Elemento desplegable */
+details {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #005a9c;
+}
+
+/* Elementos multimedia */
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+audio {
+    width: 100%;
+    max-width: 500px;
+}
+
+canvas {
+    max-width: 100%;
+    background-color: #e8f4fc;
+    border: 1px solid #005a9c;
+}
+
+progress {
+    width: 100%;
+    max-width: 500px;
+    height: 25px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #003f6b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: white;
+}
+
+/* Adaptación para dispositivos móviles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        width: 95%;
+    }
+}
