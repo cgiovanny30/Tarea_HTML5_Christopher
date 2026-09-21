@@ -1,30 +1,38 @@
-TAREA: CREACIÓN DE UNA PÁGINA WEB BÁSICA
+TAREA: CREACIÓN DE UNA PÁGINA WEB ESTILIZADA CON CSS
 
 Estudiante: Christopher Maldonado
 
 Descripción:
-Este proyecto consiste en la creación de una página web básica utilizando
-HTML, HTML5 y CSS. La página presenta información sobre Puerto Rico e
-incluye una estructura organizada mediante elementos semánticos.
 
-Durante el desarrollo se utilizaron etiquetas como header, nav, main,
-section, article, aside, figure, figcaption y footer. También se
-incorporaron características de HTML5 como video, audio, canvas,
-details, summary y progress.
+Este proyecto es una continuación de la página web creada anteriormente con HTML5. En esta etapa se aplicaron estilos CSS para mejorar la apariencia, organización y adaptación de la página en diferentes tamaños de pantalla.
 
-El archivo CSS se utiliza para modificar la apariencia de la página,
-incluyendo colores, tamaños, espacios, navegación y adaptación a
-diferentes tamaños de pantalla.
+La página presenta información sobre Puerto Rico y utiliza una estructura semántica de HTML5 con elementos como header, nav, main, section, article, aside, figure, figcaption, details y footer.
 
-La página fue desarrollada utilizando Visual Studio Code y probada
-utilizando Google Chrome.
+ESTILOS CSS IMPLEMENTADOS:
+
+- Selectores de elementos para aplicar estilos generales.
+- Selectores de clases para destacar secciones específicas.
+- Selectores de ID para aplicar estilos individuales.
+- Propiedades CSS para colores, tamaños, márgenes, espacios y bordes.
+- Modelo de caja utilizando margin, padding, border y box-sizing.
+- Diseño responsivo mediante media queries.
+- Adaptación de imágenes y videos a diferentes tamaños de pantalla.
+- Menú de navegación adaptado para dispositivos móviles.
+
+PRUEBAS:
+
+La página fue desarrollada utilizando Visual Studio Code y probada en Google Chrome.
+
+También se utilizó la herramienta de desarrollador de Google Chrome para comprobar el diseño responsivo en diferentes tamaños de pantalla.
 
 ARCHIVOS PRINCIPALES:
+
 - index.html
 - styles.css
 - README.txt
 - Carpeta imagenes
 - Carpeta recursos
 
-ENLACE DEL PROYECTO EN GITHUB:
-https://github.com/cgiovanny30/Tarea_HTML5_Christopher
+CONTROL DE VERSIONES:
+
+El proyecto fue almacenado y actualizado mediante Git y GitHub.
