@@ -58,6 +58,26 @@ section {
     padding: 25px;
     border-radius: 8px;
 }
+/* Selector de clase */
+.seccion-destacada {
+    border: 2px solid #005a9c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector de ID */
+#inicio {
+    border-top: 5px solid #005a9c;
+}
+/* Selector de clase */
+.seccion-destacada {
+    border: 2px solid #005a9c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector de ID */
+#inicio {
+    border-top: 5px solid #005a9c;
+}
 
 h2 {
     color: #005a9c;
@@ -142,8 +162,17 @@ footer a {
 
 /* Adaptación para dispositivos móviles */
 @media (max-width: 600px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
     header h1 {
         font-size: 28px;
+    }
+
+    nav {
+        padding: 10px;
     }
 
     nav a {
@@ -153,5 +182,22 @@ footer a {
 
     main {
         width: 95%;
+        margin: 15px auto;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px 10px;
     }
 }
